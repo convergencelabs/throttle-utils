@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Throttle Utils Examples</title>
+
+  <link rel="stylesheet" href="example.css"/>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"
+          integrity="sha256-L3S3EDEk31HcLA5C6T2ovHvOcD80+fgqaCDt2BAi92o="
+          crossorigin="anonymous"></script>
+  <script src="../dist/umd/throttle-utils.js"></script>
+</head>
+<body>
+<div class="main-container">
+  <h3>Debounced</h3>
+  <div id="debounce" class="box"></div>
+  <div>Event: <span id="debounced-value"></span></div>
+
+  <h3>Throttled</h3>
+  <div id="throttle" class="box"></div>
+  <div>Event: <span id="throttled-value"></span></div>
+</div>
+<script src="example.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
